@@ -34,7 +34,7 @@ frame2.Visible = true
 
 -- optional, add wait(x) here
 
-TweenService:Create(gui.RibbonUI.Ribbon1,TweenInfo.new(3,0), {Size = UDim2.new(0,0,0,diagonal)}):Play()
-TweenService:Create(gui.RibbonUI.Ribbon2,TweenInfo.new(3,0), {Size = UDim2.new(0,0,0,diagonal)}):Play()
+TweenService:Create(frame1,TweenInfo.new(3,0), {Size = UDim2.new(0,0,0,diagonal)}):Play()
+TweenService:Create(frame2,TweenInfo.new(3,0), {Size = UDim2.new(0,0,0,diagonal)}):Play()
 
 -- should pair this with one of the fade out transitions, black screen disappears here
