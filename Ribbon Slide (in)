@@ -20,6 +20,7 @@ frame1.Rotation = 45
 frame1.Position = UDim2.new(0,0,1,0)
 frame1.Name = "Ribbon1"
 frame1.BorderSizePixel = 0
+frame1.Visible = true
 
 frame2.Parent = screenUI
 frame2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -29,8 +30,11 @@ frame2.Rotation = -45
 frame2.Position = UDim2.new(0,0,0,0)
 frame2.Name = "Ribbon2"
 frame2.BorderSizePixel = 0
+frame2.Visible = true
 
-gui.RibbonUI.Ribbon1.Visible = true
-gui.RibbonUI.Ribbon2.Visible = true
+-- optional, add wait(x) here
+
 TweenService:Create(gui.RibbonUI.Ribbon1,TweenInfo.new(3,0), {Size = UDim2.new(0,0,0,diagonal)}):Play()
 TweenService:Create(gui.RibbonUI.Ribbon2,TweenInfo.new(3,0), {Size = UDim2.new(0,0,0,diagonal)}):Play()
+
+-- should pair this with one of the fade out transitions, black screen disappears here
