@@ -28,5 +28,5 @@ frame2.Visible = true
 
 -- optional, add wait(x) here
 
-TweenService:Create(gui.PartUI.Part1,TweenInfo.new(3,10), {Size = UDim2.new(0,0,1,0)}):Play()
-TweenService:Create(gui.PartUI.Part2,TweenInfo.new(3,10), {Size = UDim2.new(0,0,1,0)}):Play()
+TweenService:Create(frame1,TweenInfo.new(3,10), {Size = UDim2.new(0,0,1,0)}):Play()
+TweenService:Create(frame2,TweenInfo.new(3,10), {Size = UDim2.new(0,0,1,0)}):Play()
