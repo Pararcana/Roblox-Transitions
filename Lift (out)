@@ -1,5 +1,4 @@
 local TweenService = game:GetService("TweenService")
-local gui = game.Players.LocalPlayer.PlayerGui
 local screenUI = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
 
